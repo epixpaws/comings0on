@@ -3,18 +3,31 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Under development</title>
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    
-    <!-- Favicon -->
-    <link rel="icon" href="/favicon.ico" sizes="any" />
-    <link rel="icon" href="/favicon.ico" type="image/x-icon" />
-    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
+    <base href="/comings0on/" />
+    <title>Coming Soon</title>
+    <meta name="description" content="Coming Soon" />
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <style>
+      @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      body {
+        font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+      }
+      #root {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+      }
+    </style>
   </head>
-
   <body>
     <div id="root"></div>
-    <script type="module" src="/main.tsx"></script>
+    <script type="module" src="/src/main.tsx"></script>
   </body>
 </html>
